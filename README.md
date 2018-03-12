@@ -24,6 +24,9 @@ The bottle dataset contained 10,094 images, of which the 3 classes were “bottl
 [image_2]: ./images/3.1.png
 ![alt text][image_2] 
 
+Figure 3.1 
+Structure of data
+
 The faces dataset was collected using an phone camera. The subjects were asked to lie down on a wooden floor while the photographer clicked 400 images in rapid succession. During this time the subjects were asked to change their facial expressions and tilt their heads from side to side. Lighting consisted of a simple set of 3 CFL bulbs (15 watts) directly above the subjects, on the ceiling.These images were then uploaded to DIGITS without any modifications. Figures 3.2 and 3.3 provide sample images from each of the datasets.
 
 [image_3]: ./images/samples.png
@@ -34,7 +37,7 @@ The faces dataset was collected using an phone camera. The subjects were asked t
 The model trained on the bottle dataset achieved a testing accuracy of 75.4% after 10 epochs. The largest increases in accuracy were seen in the 1st and 3rd epochs, while the 2nd epoch contained a large spike in the training loss. By the 4th epoch, the model had stabilized and achieved a very high accuracy. On the other hand, the model trained on the face dataset achieved its steady state by the 3rd epoch, and an overall training accuracy of 100% by the end of 10 epochs. The training loss fluctuated heavily between the 4th and 6th epoch, while the validation loss decreased gradually over the course of the 10 epochs. This model also achieved a testing accuracy of 100%, when used to classify 30 images set aside for testing. Figures 4.1 - 4.4 show the results of the bottle dataset, while 4.5- 4.7 show the results of the face dataset. Figures 4.8 and 4.9 demonstrate the testing accuracy of the model, when tested on 30 images, and an example of the predictions the model made on an image.
 
 [image_4]: ./images/4.1.png
-![alt text][image_5] 
+![alt text][image_4] 
 
 [image_5]: ./images/4.3.png
 ![alt text][image_5] 
@@ -45,6 +48,9 @@ The model trained on the bottle dataset achieved a testing accuracy of 75.4% aft
 [image_7]: ./images/4.5.png
 ![alt text][image_7] 
 
+Figure 4.5
+Overview of the training specifications for the people dataset
+
 [image_8]: ./images/4.6.png
 ![alt text][image_8] 
 
@@ -53,6 +59,9 @@ The model trained on the bottle dataset achieved a testing accuracy of 75.4% aft
 
 [image_10]: ./images/results.png
 ![alt text][image_10] 
+
+Figure 4.8
+Results of classification of 30 test images
 
 [image_11]: ./images/4.8.png
 ![alt text][image_11]
