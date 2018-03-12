@@ -63,8 +63,11 @@ Overview of the training specifications for the people dataset
 Figure 4.8
 Results of classification of 30 test images
 
-[image_11]: ./images/4.8.png
+[image_11]: ./images/4.9.png
 ![alt text][image_11]
+
+Figure 4.9
+Sample of model predictions for a single image
 
 ## Discussion
 
