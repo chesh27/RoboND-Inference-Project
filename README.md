@@ -1,7 +1,7 @@
 # RoboND-Inference-Project
 ## Abstract
 
-The objective of this project is to train a deployable robotic inference model to classify images into 3 classes. Two distinct sets of data were trained using NVIDIA’s DIGITS platform as part of the Udacity Robotics Software Engineer Nanodegree. The first consisted of images of bottles and candy boxes, and the second had images of faces. The first model was able to classify the objects with an accuracy of 75.4% with an evaluation time of ~4.34ms, while the second model achieved a test accuracy of 100% after 10 epochs of training. These results are meaningful indicators of the ability of a simple inference model to correctly classify distinct objects.
+The objective of this project is to train a deployable robotic inference model to classify images into 3 classes. Two distinct sets of data were trained using NVIDIA’s DIGITS platform as part of the Udacity Robotics Software Engineer Nanodegree. The first consisted of images of bottles and candy boxes, and the second had images of faces. The first model was able to classify the objects with an accuracy of 75.4% with an evaluation time of ~4.34ms, while the second model achieved a test accuracy of 100% after 10 epochs of training. These results are meaningful indicators of the ability of a simple inference model to correctly classify distinct objects. 
 
 ## Introduction 
 
